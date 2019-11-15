@@ -82,7 +82,7 @@ export default class App extends Component {
             <div className="container mt-5">
                 <h1 className="display-3 text-center mb-4">Tic Tac Toe</h1>
                 <div className='row'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-5">
                         <Board squares={current.squares} handleClick={this.handleClick} />
                     </div>
                     <div className="game-info col-lg-6 card card-body shadow">
